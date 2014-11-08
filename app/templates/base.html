@@ -1,12 +1,14 @@
 <html>
 	<head>
 		{% if title %}
-		<title>{{title}} - GP's Food Website</title>
+		<title>{{title}} - GP and Gitter Done's Emoji Website</title>
 		{% else %}
-		<title>This is the else statement for GP's Food Website</title>
+		<title>This is the else statement if something is broken</title>
 		{% endif %}
 	</head>
 	<body>
+		<ul> Hello this is a Header from the base </ul>
+		<!--
 		<ul class = "normal menu">
 			<div>Food Blog: </div>
 			<div><a href="/index">Home</a></div>
@@ -26,6 +28,7 @@
 			<li><a href="/profile/dislikes">Dislikes</a></li>
 			<li><a href="/profile/troll">Troll</a></li>
 		</ul>
+		-->
 		{% block content %}{% endblock %}
 	</body>
 </html>
